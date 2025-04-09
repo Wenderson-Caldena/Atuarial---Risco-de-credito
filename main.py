@@ -9,7 +9,7 @@ from io import StringIO
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Caminho do arquivo Excel de entrada
-arquivo = r"C:\Users\RD136MM\Documents\PYTHON_RISCO CREDITO\resseguradoras.xlsx"
+arquivo = "data/resseguradoras.xlsx"
 df_codigos = pd.read_excel(arquivo, sheet_name="resseguradoras")
 
 # Lista para armazenar os dados coletados
