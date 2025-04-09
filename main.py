@@ -64,8 +64,6 @@ df_resultado = pd.DataFrame(dados_classificacao)
 
 ##### ------------------PARTE 2 ---------------------- ####
 
-import pandas as pd
-
 # === 1. Mapeamento de CLASSIFICADORA + NOTA -> GRUPO (mantém o mesmo)
 regras_grupo = pd.DataFrame({
     "CLASSIFICADORA": [
@@ -106,8 +104,6 @@ df = df.merge(regras_grupo, on=["CLASSIFICADORA", "NOTA"], how="left")
 df = df.merge(regras_tipo, on="MODALIDADE", how="left")
 
 #### ----------------------- PARTE 3 ----------------- ####
-
-import pandas as pd
 
 
 # 2. Matriz de risco
