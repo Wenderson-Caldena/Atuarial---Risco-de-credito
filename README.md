@@ -1,4 +1,4 @@
-# Atuarial---Risco-de-cr-dito
+# Atuarial---Risco-de-credito
 
 # 📊 Classificação de Risco de Resseguradoras - Automação SUSEP
 
