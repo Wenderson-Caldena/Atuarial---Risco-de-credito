@@ -72,4 +72,4 @@ O script retorna um `DataFrame` com as seguintes colunas:
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Wenderson-Caldena/Atuarial---Risco-de-credito.git
